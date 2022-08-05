@@ -1,0 +1,16 @@
+name: SpigotPluginTutorial
+version: '${project.version}'
+main: me.kevindeng.spigotplugintutorial.SpigotPluginTutorial
+api-version: 1.17
+authors: [ Kevin ]
+description: My first plugin ever
+commands:
+  gamemode:
+    description: Sets gamemode to creative
+    aliases:
+      - gm
+  clearinventory:
+    description: Clears the inventory of the player (in creative only)
+    aliases:
+      - ci
+
